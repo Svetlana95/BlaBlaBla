@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="174823" started-at="2016-05-22T19:19:58Z" finished-at="2016-05-22T19:22:53Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="174823" started-at="2016-05-22T19:19:58Z" finished-at="2016-05-22T19:22:53Z">
+      <class name="org.bitbucket.automation.CrateProjectTest">
+        <test-method status="PASS" signature="prepareUtils()[pri:0, instance:org.bitbucket.automation.CrateProjectTest@6aaa5eb0]" name="prepareUtils" is-config="true" duration-ms="24313" started-at="2016-05-22T22:19:58Z" finished-at="2016-05-22T22:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareUtils -->
+        <test-method status="PASS" signature="prepareUtils()[pri:0, instance:org.bitbucket.automation.CreateRepoTest@3498ed]" name="prepareUtils" is-config="true" duration-ms="17738" started-at="2016-05-22T22:20:22Z" finished-at="2016-05-22T22:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareUtils -->
+        <test-method status="PASS" signature="prepareUtils()[pri:0, instance:org.bitbucket.automation.CreateTeamTest@1a407d53]" name="prepareUtils" is-config="true" duration-ms="21558" started-at="2016-05-22T22:20:40Z" finished-at="2016-05-22T22:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareUtils -->
+        <test-method status="PASS" signature="prepareUtils()[pri:0, instance:org.bitbucket.automation.LoginPageTest@3d8c7aca]" name="prepareUtils" is-config="true" duration-ms="9593" started-at="2016-05-22T22:21:01Z" finished-at="2016-05-22T22:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareUtils -->
+        <test-method status="PASS" signature="prepareUtils()[pri:0, instance:org.bitbucket.automation.OverviewPageTest@5ebec15]" name="prepareUtils" is-config="true" duration-ms="27680" started-at="2016-05-22T22:21:11Z" finished-at="2016-05-22T22:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareUtils -->
+        <test-method status="PASS" signature="testCreateNewProject()[pri:0, instance:org.bitbucket.automation.CrateProjectTest@6aaa5eb0]" name="testCreateNewProject" duration-ms="7128" started-at="2016-05-22T22:21:39Z" finished-at="2016-05-22T22:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewProject -->
+        <test-method status="PASS" signature="completeUtils()[pri:0, instance:org.bitbucket.automation.CrateProjectTest@6aaa5eb0]" name="completeUtils" is-config="true" duration-ms="1469" started-at="2016-05-22T22:22:47Z" finished-at="2016-05-22T22:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeUtils -->
+        <test-method status="PASS" signature="completeUtils()[pri:0, instance:org.bitbucket.automation.CreateRepoTest@3498ed]" name="completeUtils" is-config="true" duration-ms="782" started-at="2016-05-22T22:22:48Z" finished-at="2016-05-22T22:22:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeUtils -->
+        <test-method status="PASS" signature="completeUtils()[pri:0, instance:org.bitbucket.automation.CreateTeamTest@1a407d53]" name="completeUtils" is-config="true" duration-ms="1833" started-at="2016-05-22T22:22:49Z" finished-at="2016-05-22T22:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeUtils -->
+        <test-method status="PASS" signature="completeUtils()[pri:0, instance:org.bitbucket.automation.LoginPageTest@3d8c7aca]" name="completeUtils" is-config="true" duration-ms="1041" started-at="2016-05-22T22:22:51Z" finished-at="2016-05-22T22:22:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeUtils -->
+        <test-method status="PASS" signature="completeUtils()[pri:0, instance:org.bitbucket.automation.OverviewPageTest@5ebec15]" name="completeUtils" is-config="true" duration-ms="697" started-at="2016-05-22T22:22:52Z" finished-at="2016-05-22T22:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeUtils -->
+      </class> <!-- org.bitbucket.automation.CrateProjectTest -->
+      <class name="org.bitbucket.automation.CreateTeamTest">
+        <test-method status="PASS" signature="testCreateNewTeam()[pri:0, instance:org.bitbucket.automation.CreateTeamTest@1a407d53]" name="testCreateNewTeam" duration-ms="16277" started-at="2016-05-22T22:22:07Z" finished-at="2016-05-22T22:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewTeam -->
+      </class> <!-- org.bitbucket.automation.CreateTeamTest -->
+      <class name="org.bitbucket.automation.OverviewPageTest">
+        <test-method status="PASS" signature="testCreateRepository_AcrossMenu()[pri:0, instance:org.bitbucket.automation.OverviewPageTest@5ebec15]" name="testCreateRepository_AcrossMenu" duration-ms="6096" started-at="2016-05-22T22:22:41Z" finished-at="2016-05-22T22:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateRepository_AcrossMenu -->
+      </class> <!-- org.bitbucket.automation.OverviewPageTest -->
+      <class name="org.bitbucket.automation.LoginPageTest">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:org.bitbucket.automation.LoginPageTest@3d8c7aca]" name="testLogin" duration-ms="17157" started-at="2016-05-22T22:22:23Z" finished-at="2016-05-22T22:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- org.bitbucket.automation.LoginPageTest -->
+      <class name="org.bitbucket.automation.CreateRepoTest">
+        <test-method status="PASS" signature="testCreteRepo_withSettings()[pri:0, instance:org.bitbucket.automation.CreateRepoTest@3498ed]" name="testCreteRepo_withSettings" duration-ms="14555" started-at="2016-05-22T22:21:46Z" finished-at="2016-05-22T22:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreteRepo_withSettings -->
+        <test-method status="PASS" signature="testCreteRepo_withoutSettings()[pri:0, instance:org.bitbucket.automation.CreateRepoTest@3498ed]" name="testCreteRepo_withoutSettings" duration-ms="6880" started-at="2016-05-22T22:22:00Z" finished-at="2016-05-22T22:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreteRepo_withoutSettings -->
+      </class> <!-- org.bitbucket.automation.CreateRepoTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
